@@ -1,10 +1,122 @@
 {
-    "question1" : {
-        "title": "First question",
-		"answer": "1"
-    },
-    "question2" : {
-        "title": "Second question",
-		"answer": "2" 
-    }
+			question0: {
+                questionText: 'What does HTML stand for?',
+                optionOne: 'hyper-text-markup-language',
+                optionTwo: 'hyper-text-manufacturing-language',
+                optionThree: 'high-texture-manipulation-language',
+                optionFour: 'None of these',
+                answer: 1,
+                pointsOnGuessing:50
+            },
+            question1: {
+                questionText: 'How to create a new two-dimensional array in C# ?',
+                optionOne: 'var arr = new Array(2)',
+                optionTwo: 'int[,] arr = new int[a,b]',
+                optionThree: 'int[,] arr = new int[a][b]',
+                optionFour:  'Array.newArray(2)',
+                answer: 2,
+                pointsOnGuessing: 100
+            },
+            question2: {
+                questionText: 'How is the wrapping of an item as an Object called in C#?',
+                optionOne: 'Data compression',
+                optionTwo: 'Unboxing',
+                optionThree: 'Wrapping',
+                optionFour: 'Boxing',
+                answer: 4,
+                pointsOnGuessing: 150
+            },
+            question3: {
+                questionText: 'Can a C# array contain data from different types?',
+                optionOne: 'Yes',
+                optionTwo: 'No',
+                optionThree: 'Depends of which types of data',
+                optionFour: 'Can be calibrated',
+                answer: 2,
+                pointsOnGuessing: 200
+            },      
+			question4: {
+                questionText: 'What was the original idea of HTML?',
+                optionOne: 'Just to transfer small amounts of text data',
+                optionTwo: 'To start the Windows 9.8 platform',
+                optionThree: 'To make applications easier to write',
+                optionFour: 'To encrypt files',
+                answer: 1,
+                pointsOnGuessing: 250
+            },     		
+			question5: {
+                questionText: 'How can the children of a class able to override the parents methods?',
+                optionOne: 'They can not',
+                optionTwo: 'Using Regular expressions',
+                optionThree: 'Initializing the method in themselves instantly overrides the one from the parent',
+                optionFour: 'They can override the method if the parent has set them to "virtual"',
+                answer: 4,
+                pointsOnGuessing: 300
+            },     	
+			question6: {
+                questionText: 'What is the correct way to validate data,when introducing it to a class?',
+                optionOne: 'Validation is not needed',
+                optionTwo: 'Validation must be done in the constructor of the class',
+                optionThree: 'Data given to the properties must be validated in the properties',
+                optionFour: 'Fields should validate the input themselves',
+                answer: 3,
+                pointsOnGuessing: 500
+            },    
+			question7: {
+                questionText: 'What is the correct way to validate data,when introducing it to a class?',
+                optionOne: 'Validation is not needed',
+                optionTwo: 'Validation must be done in the constructor of the class',
+                optionThree: 'Data given to the properties must be validated in the properties',
+                optionFour: 'Fields should validate the input themselves',
+                answer: 3,
+                pointsOnGuessing: 570
+            },   
+			question8: {
+                questionText: 'What is the correct way to validate data,when introducing it to a class?',
+                optionOne: 'Validation is not needed',
+                optionTwo: 'Validation must be done in the constructor of the class',
+                optionThree: 'Data given to the properties must be validated in the properties',
+                optionFour: 'Fields should validate the input themselves',
+                answer: 3,
+                pointsOnGuessing: 670
+            }, 
+			question9: {
+                questionText: 'What is the correct way to validate data,when introducing it to a class?',
+                optionOne: 'Validation is not needed',
+                optionTwo: 'Validation must be done in the constructor of the class',
+                optionThree: 'Data given to the fields must be validated in the properties',
+                optionFour: 'Fields should validate the input themselves',
+                answer: 3,
+                pointsOnGuessing: 820
+            }, 
+			question10: {
+                questionText: 'What is the correct way to validate data,when introducing it to a class?',
+                optionOne: 'Validation is not needed',
+                optionTwo: 'Validation must be done in the constructor of the class',
+                optionThree: 'Data given to the properties must be validated in the properties',
+                optionFour: 'Fields should validate the input themselves',
+                answer: 3,
+                pointsOnGuessing: 1000
+            }, 			
+			question11: {
+                questionText: 'Which of the following is not a standard part of the class hierarchy?',
+                optionOne: 'Field',
+                optionTwo: 'Property',
+                optionThree: 'Constructor',
+                optionFour: 'Emulator',
+                answer: 4,
+                pointsOnGuessing: 1100
+            }, 		
+			question12: {
+                questionText: 'What C# component acts like a List,but does not allow repeated adding of a element,
+				that is already inside?',
+                optionOne: 'Two-dimensional array',
+                optionTwo: 'Hashset',
+                optionThree: 'There is no such thing',
+                optionFour: 'The "Object" class',
+                answer: 2,
+                pointsOnGuessing: 1110
+            }, 		
+
+			
 }

@@ -1,10 +1,76 @@
 {
-    "question1" : {
-        "title": "First question",
-		"answer": "1"
-    },
-    "question2" : {
-        "title": "Second question",
-		"answer": "2" 
-    }
+			question0: {
+                questionText: 'What type of programming language is C#?',
+                optionOne: 'type-less',
+                optionTwo: 'strongly typed',
+                optionThree: 'can be both(needs to be set up in advance)',
+                optionFour: 'None of these',
+                answer: 2,
+                pointsOnGuessing:50
+            },
+            question1: {
+                questionText: 'Which is the correct Javascript syntax,
+					according to the quality coding rules?',
+                optionOne: ' if() {
+					var p = 5;
+				} ',
+                optionTwo: ' if() 
+				{
+				var p = 5;
+				} ',
+                optionThree: ' if() 
+				{
+					var p = 5;
+				} ',
+                optionFour:  ' if() { var p = 5; } ',
+                answer: 1,
+                pointsOnGuessing: 100
+            },
+            question2: {
+                questionText: 'Is JavaScript case sensitive?',
+                optionOne: 'Yes',
+                optionTwo: 'No',
+                optionThree: 'Can be configured for both',
+                optionFour: 'Depends on the installed plugins',
+                answer: 1,
+                pointsOnGuessing: 150
+            },
+            question3: {
+                questionText: 'Which of the answers contains ONLY invalid access modifiers in C#?',
+                optionOne: 'internal,protected',
+                optionTwo: 'protected,modified',
+                optionThree: 'modified,global',
+                optionFour: 'protected-internal,private',
+                answer: 3,
+                pointsOnGuessing: 200
+            },     
+			question4: {
+                questionText: 'What is the "finally" block provide?',
+                optionOne: 'The code inside will be always executed,even if the "catch" block catches an exception',
+                optionTwo: 'The finally code prevents the program from stopping in an exception is caught',
+                optionThree: 'It only provides a hidden section of code',
+                optionFour: 'It allows the final user to see the error in real time',
+                answer: 1,
+                pointsOnGuessing: 1200
+            }, 		
+			question5: {
+                questionText: 'What does the .NET CLR do for the program?',
+                optionOne: 'Slows it down a bit',
+                optionTwo: '"Garbage disposal"',
+                optionThree: 'Makes the programmers job easier',
+                optionFour: 'All of them',
+                answer: 4,
+                pointsOnGuessing: 1300
+            }, 		
+			question6: {
+                questionText: 'What purpose does Regex(Regular Expressions) serve?',
+                optionOne: 'Data comparison,mostly used for validating e-mails',
+                optionTwo: 'Provides the entire stack trace in case of exceptions',
+                optionThree: 'Data encapsulation',
+                optionFour: 'Prevents an object of being inherited',
+                answer: 1,
+                pointsOnGuessing: 1400
+            }
+						
+			
 }
