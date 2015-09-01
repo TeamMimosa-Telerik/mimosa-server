@@ -5,11 +5,19 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var methodOverride = require('method-override');
 var fs = require('fs');
+var cors = require('cors');
+
 
 // create app
 var app = express();
 var router = express.Router();
 
+app.all('*', function(req, res, next) {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Methods', 'PUT, GET, POST, DELETE, OPTIONS');
+  res.header('Access-Control-Allow-Headers', 'Content-Type');
+  next();
+});
 
 //config
 app.use('/', router);
@@ -20,6 +28,7 @@ app.use(bodyParser.urlencoded({
 
 app.use(bodyParser.json());
 app.use(methodOverride());
+app.use(cors())
 
 app.set('port', (process.env.PORT || 5000));
 
