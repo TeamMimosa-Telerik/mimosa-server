@@ -1,77 +1,86 @@
 function init(){
 	return {
-           "question0":{
-              "questionText":"What will the following code return:\"typeof(NaN)\"?",
-              "optionOne":" NaN",
-              "optionTwo":"number",
-              "optionThree":"undefined",
-              "optionFour":"Reference exception",
-              "answer":2,
-              "pointsOnGuessing":50
-           },
-           "question1":{
-              "questionText":"Which is the correct C# syntax?",
-              "optionOne":" var a = 4",
-              "optionTwo":"int a = 4",
-              "optionThree":"int a = 4.5f",
-              "optionFour":"var p = function(){return a=5;}",
-              "answer":2,
-              "pointsOnGuessing":100
-           },
-           "question2":{
-              "questionText":"What is the correct place to link the CSS files?",
-              "optionOne":"In the header",
-              "optionTwo":"In the body",
-              "optionThree":"Both",
-              "optionFour":"I do not use it",
-              "answer":1,
-              "pointsOnGuessing":150
-           },
-           "question3":{
-              "questionText":"Why is it important to know Quality coding?",
-              "optionOne":"Make the code readable",
-              "optionTwo":"Make the code easy to refactor",
-              "optionThree":"Both",
-              "optionFour":"It is quite useless actually",
-              "answer":3,
-              "pointsOnGuessing":200
-           },
-           "question4":{
-              "questionText":"What will the C# code \"int.Parse(\"5.1\")\" return?",
-              "optionOne":"NullReference Exception",
-              "optionThree":"5",
-              "optionTwo":"5.1",
-              "optionFour":"Format Exception",
-              "answer":4,
-              "pointsOnGuessing":230
-           },
-           "question5":{
-              "questionText":"Why should \"go to\" be avoided?",
-              "optionOne":"Because it is deprecated.",
-              "optionTwo":"It is considered ineffective in new versions of .NET",
-              "optionThree":"Creates \"Spaghetti Code\"",
-              "optionFour":"None of the above",
-              "answer":3,
-              "pointsOnGuessing":270
-           },
-           "question6":{
-              "questionText":"Why is C++ a better option for developing big games,compared to C#?",
-              "optionOne":"C# has a slower performance due to worse data transitions",
-              "optionTwo":"C# has a slower performance because of the CLR",
-              "optionThree":"Actually C++ is not the better option",
-              "optionFour":"C++ game developers are better paid and prefer that language",
-              "answer":2,
-              "pointsOnGuessing":300
-           },
-           "question7":{
-              "questionText":"Can multiple classes be inherited in C#?",
-              "optionOne":"No,only multiple interface inheritance is possible",
-              "optionTwo":"Yes,an unlimited number of classes can be inherited",
-              "optionThree":"You can inherit up to 3 classes maximum",
-              "optionFour":"C# does not work with objects(like regular C)",
-              "answer":1,
-              "pointsOnGuessing":360
-           }
+            "question0": {
+                "questionText": "What does HTML stand for?",
+                "optionOne": "hyper-text-markup-language",
+                "optionTwo": "hyper-text-manly-language",
+                "optionThree": "high-text-mime-language",
+                "optionFour": "None of these",
+                "answer": 1,
+                "pointsOnGuessing":50
+            },
+            "question1": {
+                "questionText": "How to create a new two-dimensional array in C# ?",
+                "optionOne": "var arr = new Array(2)",
+                "optionTwo": "int[,] arr = new int[a,b]",
+                "optionThree": "int[,] arr = int[a][b]",
+                "optionFour":  "Array.newArray(2)",
+                "answer": 2,
+                "pointsOnGuessing": 100
+            },
+            "question2": {
+                "questionText": "How is the wrapping of an item as an Object called in C#?",
+                "optionOne": "Data compression",
+                "optionTwo": "Unboxing",
+                "optionThree": "Wrapping",
+                "optionFour": "Boxing",
+                "answer": 4,
+                "pointsOnGuessing": 150
+            },
+            "question3": {
+                "questionText": "Can a C# array contain data from different types?",
+                "optionOne": "Yes",
+                "optionTwo": "No",
+                "optionThree": "Depends on data type",
+                "optionFour": "Can be calibrated",
+                "answer": 2,
+                "pointsOnGuessing": 200
+            },      
+            "question4": {
+                "questionText": "What was the original idea of HTML?",
+                "optionOne": "Transfer small text data",
+                "optionTwo": "Start the Windows 9.8",
+                "optionThree": "Make apps readable",
+                "optionFour": "To encrypt files",
+                "answer": 1,
+                "pointsOnGuessing": 250
+            },        
+            "question5": {
+                "questionText": "How can the children of a class able to override the parents methods?",
+                "optionOne": "They can not",
+                "optionTwo": "Using Regex",
+                "optionThree": "Calling methods themselves",
+                "optionFour": "Parent method must be \"virtual\"",
+                "answer": 4,
+                "pointsOnGuessing": 300
+            },      
+            "question6": {
+                "questionText": "What is the correct way to validate data,when introducing it to a class?",
+                "optionOne": "It is not needed",
+                "optionTwo": "Must be done in constructors",
+                "optionThree": "Data validation in properties",
+                "optionFour": "Fields should validate input",
+                "answer": 3,
+                "pointsOnGuessing": 500
+            },    
+            "question7": {
+                "questionText": "Which of the following is not a standard part of the class hierarchy?",
+                "optionOne": "Field",
+                "optionTwo": "Property",
+                "optionThree": "Constructor",
+                "optionFour": "Emulator",
+                "answer": 4,
+                "pointsOnGuessing": 1100
+            },    
+            "question8": {
+                "questionText": "What C# component acts like a List, but prevents adding the element again?",
+                "optionOne": "Two-dimensional array",
+                "optionTwo": "Hashset",
+                "optionThree": "There is no such thing",
+                "optionFour": "The \"Object\" class",
+                "answer": 2,
+                "pointsOnGuessing":1110
+            }
 	};
 }
 
